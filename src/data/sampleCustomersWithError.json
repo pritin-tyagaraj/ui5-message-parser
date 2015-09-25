@@ -1,0 +1,18 @@
+{
+	"data" : [
+		{
+			"Name": "Customer A",
+			"Phone": "12345"
+		},  {
+			"Name": "Customer B",
+			"Phone": "67890"
+		}
+	],
+	"messages" : [
+		{
+			"Type": "WARNING",
+			"Text": "Not authorized to view all customers.",
+			"LongText": "You are not authorized to view the details of customers outside of the BANGALORE-EAST zone. For more information, please contact your system administrator."
+		}
+	]
+}

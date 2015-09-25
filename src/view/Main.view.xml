@@ -1,0 +1,19 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="view.Main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<!-- List to show the list of fetched customers -->
+			<List items="{/Customers}">
+				<headerToolbar>
+					<Toolbar>
+						<!-- This button opens our sap.m.MessagePopover -->
+						<Button icon="sap-icon://alert" text="Messages" press="handleMessagesPress" type="Emphasized"/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<StandardListItem title="{Name}" info="{Phone}"></StandardListItem>
+				</items>
+			</List>
+		</content>
+	</Page>
+</core:View>
